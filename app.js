@@ -1,5 +1,4 @@
-hehe mffff
-
+hehe mffff 256
 for (let num = 11; num <= 17; num++){
     console.log("I'm in the loop")
     console.log(num)
