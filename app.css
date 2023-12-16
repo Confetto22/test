@@ -261,6 +261,38 @@ img:hover {
 
 }
 
+.team-staff {
+    padding: 2rem 1rem;
+    background-color: #9b8f8f8c;
+}
+
+.team-content {
+    /* display: grid; */
+    /* padding: 2rem 1rem;
+    background-color: #9b8f8f8c; */
+    margin: 4rem 0;
+    box-shadow: 11px 6px 16px 2px black;
+
+}
+
+.team-content img {
+    width: 100%;
+
+
+    object-fit: cover;
+}
+
+.team-content h3 {
+    margin: 1rem 0;
+    text-align: center;
+    font-size: 170%;
+}
+
+.team-content p {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
 footer {
     background-color: rgb(236, 159, 131);
     padding: 0 13%;
@@ -318,6 +350,12 @@ footer p a {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 2rem;
+    }
+
+    .team-staff {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
     }
 }
 
@@ -379,6 +417,12 @@ footer p a {
         /* display: block; */
         height: 248px;
         margin-left: 20%;
+    }
+
+    .team-staff {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 3rem;
     }
 
 }
