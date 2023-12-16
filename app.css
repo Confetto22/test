@@ -1,0 +1,336 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.navbar {
+    background-color: rgb(236, 159, 131);
+}
+
+.navbar ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar .call {
+    background-color: #5B2B32;
+    border: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    color: #fff;
+
+}
+
+.section-1 {
+    background: url(images/fatos-bytyqi-Agx5_TLsIf4-unsplash.jpg);
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.section1-cover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-1 h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
+.section-1 p {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.section1-cover {
+    padding: 0 13%;
+    background-color: rgba(231,
+            76, 60, 0.6);
+}
+
+.section-1 .started {
+    width: 100%;
+    height: 2.8rem;
+    background-color: #5B2B32;
+    border: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 3rem;
+}
+
+.section-2 {
+    padding: 2.6rem 13%;
+    background-color: rgb(231, 76, 60);
+}
+
+.section-3 {
+    padding: 2rem 13%;
+
+
+}
+
+.section3-content img {
+    width: 100%;
+    margin: 1.6rem 0;
+}
+
+.section3-content h3,
+.section3-content p {
+    text-align: center;
+    margin: 0.5rem 0;
+}
+
+.projects {
+    padding: 0 13%;
+    background-color: #75757593;
+}
+
+.projects h2 {
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+.projects-content img {
+    width: 100%;
+    margin-top: 1.6rem;
+}
+
+.projects-content h3,
+.projects-content p {
+    text-align: center;
+    /* margin: 0.5rem 0; */
+    padding: 0.6rem 0;
+}
+
+.projects-content .projects-last {
+    padding-bottom: 5rem;
+}
+
+.clients {
+
+    padding: 3rem 13%;
+    background-color: #75757593;
+}
+
+.clients h2 {
+    margin-bottom: 0.7rem;
+}
+
+.clients img {
+    width: 100%;
+    margin: 0.6rem 0;
+}
+
+#clients-description-last {
+    height: 12.564rem;
+    object-fit: cover;
+}
+
+.clients #clients-special-img {
+    height: 10.3rem;
+    object-fit: cover;
+}
+
+.about {
+    padding: 0 13%;
+    background-color: #da5141d2;
+}
+
+.about h2 {
+    text-align: center;
+    padding-top: 3.2rem;
+    /* padding-bottom: 1.4rem; */
+}
+
+.about p {
+    text-align: center;
+    margin: 1.6rem 0;
+}
+
+.about img {
+    width: 100%;
+    /* height: 10.86rem; */
+    max-height: 320px;
+    padding-top: 1.5rem;
+    padding-bottom: 2.7rem;
+    object-fit: cover;
+}
+
+.contact {
+    padding: 0 13%;
+    background-color: #9b8f8f8c;
+}
+
+.contact h3 {
+    padding-top: 3rem;
+}
+
+.contact p {
+    margin: 1rem 0;
+    font-size: 0.8rem;
+
+}
+
+.contact label {
+    font-size: 0.9rem;
+}
+
+#name,
+#email {
+    width: 100%;
+    border: none;
+    background-color: #5c5c5c38;
+    height: 1.7rem;
+    margin: 0.3rem 0;
+}
+
+#message {
+    width: 100%;
+    border: none;
+    background-color: #5c5c5c38;
+    height: 7rem;
+    margin: 0.3rem 0;
+}
+
+.contact .send {
+    background-color: #5B2B32;
+    border: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    color: #fff;
+    width: 7.6rem;
+    margin-bottom: 2rem;
+}
+
+footer {
+    background-color: rgb(236, 159, 131);
+    padding: 0 13%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem 0;
+}
+
+footer p a {
+    text-decoration: none;
+    color: darkblue;
+}
+
+@media only screen and (min-width:600px) {
+
+    .navbar,
+    .section1-cover,
+    .section-2,
+    .section-3,
+    .projects,
+    .clients,
+    .about,
+    .contact,
+    .footer {
+        padding: 0 1.4rem;
+    }
+
+    .section-2,
+    .section-3,
+    .clients {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    /* .section-3{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+    }
+    #section3-last{
+        grid-column: 1 / span 2;
+            width: 50%;
+            margin: 0 auto;
+            
+    } */
+    .projects-description {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+
+    .clients-description {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+}
+
+@media only screen and (min-width:768px) {
+
+    .navbar,
+    .section1-cover,
+    .section-2,
+    .section-3,
+    .projects,
+    .clients,
+    .about,
+    .contact,
+    .footer {
+        padding: 0 10%;
+    }
+
+
+    .section-1 .started {
+        width: auto;
+    }
+
+    .section-2,
+    .section-3,
+    .clients {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .section-3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 2rem;
+    }
+
+    .about img {
+        width: 26rem;
+        /* display: block; */
+        height: 248px;
+        margin-left: 20%;
+    }
+
+}
+
+@media (min-width:600px) and (max-width:768px) {
+    .section-3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+    }
+
+    #section3-last {
+        grid-column: 1 / span 2;
+        width: 50%;
+        margin: 0 auto;
+
+    }
+}
