@@ -22,6 +22,13 @@ img:hover {
     display: flex;
     justify-content: space-between;
     padding: 1rem 0;
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.navbar .desktop-menu {
+    display: none;
 }
 
 .navbar {
@@ -328,6 +335,27 @@ footer p a {
         padding: 0 10%;
     }
 
+    .navbar {
+        display: flex;
+    }
+
+    .navbar .call {
+        display: none;
+    }
+
+    .navbar .desktop-menu {
+        display: flex;
+        width: 50%;
+        justify-content: space-evenly;
+    }
+
+    .desktop-menu li a {
+        transition: 0.3s;
+    }
+
+    .desktop-menu li a:hover {
+        color: rgb(0, 26, 255);
+    }
 
     .section-1 .started {
         width: auto;
