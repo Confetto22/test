@@ -267,9 +267,7 @@ img:hover {
 }
 
 .team-content {
-    /* display: grid; */
-    /* padding: 2rem 1rem;
-    background-color: #9b8f8f8c; */
+   
     margin: 4rem 0;
     box-shadow: 11px 6px 16px 2px black;
 
@@ -329,17 +327,7 @@ footer p a {
         padding-bottom: 3rem;
     }
 
-    /* .section-3{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 3rem;
-    }
-    #section3-last{
-        grid-column: 1 / span 2;
-            width: 50%;
-            margin: 0 auto;
-            
-    } */
+   
     .projects-description {
         display: grid;
         grid-template-columns: 1fr 1fr;
