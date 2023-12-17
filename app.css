@@ -24,15 +24,30 @@ img:hover {
     padding: 1rem 0;
     width: 80%;
     margin: 0 auto;
+    align-items: center;
 
 }
 
 .navbar .desktop-menu {
-    display: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 44%;
+    background-color: #5e59a54d;
+    /* margin-bottom: 2rem; */
+    border-radius: 1rem 0;
+}
+
+.desktop-menu li a {
+    transition: 0.3s;
+}
+
+.desktop-menu li a:hover {
+    color: rgb(0, 26, 255);
 }
 
 .navbar {
     background-color: rgb(236, 159, 131);
+    padding-bottom: 1rem;
 }
 
 .navbar ul a {
@@ -262,12 +277,14 @@ img:hover {
 }
 
 .team-staff {
-    padding: 2rem 1rem;
+    padding: 2rem 3rem;
     background-color: #9b8f8f8c;
 }
 
 .team-content {
-   
+    /* display: grid; */
+    /* padding: 2rem 1rem;
+    background-color: #9b8f8f8c; */
     margin: 4rem 0;
     box-shadow: 11px 6px 16px 2px black;
 
@@ -327,7 +344,21 @@ footer p a {
         padding-bottom: 3rem;
     }
 
-   
+    .navbar {
+        padding-bottom: 1rem;
+    }
+
+    /* .section-3{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+    }
+    #section3-last{
+        grid-column: 1 / span 2;
+            width: 50%;
+            margin: 0 auto;
+            
+    } */
     .projects-description {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -363,11 +394,10 @@ footer p a {
 
     .navbar {
         display: flex;
+        padding: 1rem 10%;
+
     }
 
-    .navbar .call {
-        display: none;
-    }
 
     .navbar .desktop-menu {
         display: flex;
@@ -382,6 +412,7 @@ footer p a {
     .desktop-menu li a:hover {
         color: rgb(0, 26, 255);
     }
+
 
     .section-1 .started {
         width: auto;
